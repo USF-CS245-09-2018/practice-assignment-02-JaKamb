@@ -1,4 +1,4 @@
-import java.util.Random;
+	import java.util.Random;
 
 
 public class Practice2Test {
@@ -13,9 +13,9 @@ public class Practice2Test {
 	
 	
 	public Practice2Test(String [] args) {
-		int arraySize = DEFAULT_ARRAY_SIZE;
-		searches = DEFAULT_SEARCHES;
-		searchType = DEFAULT_SEARCH_TYPE;
+		int arraySize = 400000;
+		searches = 100;
+		searchType = "recursivebinary";
 		
 		try {
 			if (args.length == 3) {
